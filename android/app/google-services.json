@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "995760751404",
+    "project_id": "qiita-app-f4c85",
+    "storage_bucket": "qiita-app-f4c85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995760751404:android:08cf3d450b0bb1a5d92289",
+        "android_client_info": {
+          "package_name": "com.example.qiita_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995760751404-bgc724eq7c7rp9s4unkctra62hb40b9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlONML7LiYpw9oYFlGx6E2_nOBIhfdqps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995760751404-bgc724eq7c7rp9s4unkctra62hb40b9c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995760751404-jnvi90nnsflm7664afaa4oqjgpupphgc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.qiitaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
