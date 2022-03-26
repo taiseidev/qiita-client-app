@@ -1,21 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:qiita_app/ui/home_page.dart';
+import 'package:qiita_app/ui/article_list_view.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const QiitaApp(),
+  );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class QiitaApp extends StatelessWidget {
+  const QiitaApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Qiita Articles',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: const Color(0xff59bb0c),
       ),
-      home: HomePage(),
+      home: ArticleListView(),
     );
   }
 }

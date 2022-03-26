@@ -22,6 +22,9 @@ dependencies:
   # freezed
   freezed: ^1.1.1
   freezed_annotation: ^1.1.0
+  # state
+  provider: ^6.0.2
+  url_launcher: ^6.0.20
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -4,7 +4,7 @@ import 'package:qiita_app/model/article_model.dart';
 import 'package:qiita_app/repository/article_repository.dart';
 import 'package:qiita_app/response/result.dart';
 
-class ArticleRepositoryImpl with ArticleRepository {
+class ArticleRepositoryImpl extends ArticleRepository {
   final ApiClient _client;
 
   ArticleRepositoryImpl([ApiClient? client])
